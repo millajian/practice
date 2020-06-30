@@ -43,7 +43,7 @@ class Animal():
 
 
 class Cat(Animal):
-    hair: str = "长毛"
+    hair: str = "短毛"
 
     def catch(self):
         return "抓到老鼠了～～"
@@ -69,5 +69,7 @@ mew = Cat(cat['name'], cat['color'], cat['age'], cat['sex'])
 dog = Dog(dog['name'], dog['color'], dog['age'], dog['sex'])
 # mew = Cat("jassica", "灰色", 2, "姑娘")
 # dog = Dog("阿奇", "金色", 1, "男孩")
+mew.catch()
+dog.keep()
 print(f"{mew.name}是一只{mew.color}猫，今年{mew.age}岁，{mew.hair},是个{mew.sex}，" + mew.catch() + mew.roar())
 print(f"{dog.name}是一只{dog.color}狗，今年{dog.age}岁，{dog.hair},是个{dog.sex}，" + dog.keep() + dog.roar())
