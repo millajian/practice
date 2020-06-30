@@ -1,0 +1,10 @@
+cat:
+  name: jasscia
+  color: 灰色
+  age: 2
+  sex: 姑娘
+dog:
+  name: 阿奇
+  color: 黄色
+  age: 1
+  sex: 男孩
